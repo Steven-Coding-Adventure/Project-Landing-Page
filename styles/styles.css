@@ -1,0 +1,154 @@
+.header,
+.main,
+.footer {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px 20px 100px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.main-box {
+    width: 600px;
+}
+
+.main-text {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8;
+    margin-bottom: 10px;
+}
+
+.main-subtext,
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-links {
+    text-decoration: none;
+    padding: 0px 0px 0px 20px;
+}
+
+.main-img {
+    width: 500px;
+}
+
+.main-button {
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bolder;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+}
+
+.info-title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-img {
+    width: 200px;
+    border: solid blue ;
+}
+
+.info-subtext {
+    text-align: center;
+    width: 200px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    padding: 10px;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    width: 600px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cta {
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    padding: 50px;
+}
+
+.cta-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.cta-button {
+    border-radius: 10px;
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.footer {
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
